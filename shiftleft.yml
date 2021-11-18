@@ -1,7 +1,6 @@
 build_rules:
-  - id: reachable_oss
-    finding_types:
-      - oss
-    reachability:
-      - Reachable
-    threshold: 0
+  - id: reachable-oss-vuln
+    finding_types: [oss_vuln]
+    options:
+      reachable: true
+      num_findings: 0
