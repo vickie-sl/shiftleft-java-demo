@@ -4,4 +4,4 @@ build_rules:
     options:
       reachable: true
       num_findings: 5
-    threshold: 100
+    threshold: 10
