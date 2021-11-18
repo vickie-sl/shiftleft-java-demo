@@ -2,6 +2,6 @@ build_rules:
   - id: reachable_oss
     finding_types:
       - oss
-    type:
+    reachability:
       - Reachable
     threshold: 0
