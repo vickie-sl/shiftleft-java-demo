@@ -9,5 +9,4 @@ build_rules:
     finding_types: [oss_vuln]
     options:
       reachable: true
-      num_findings: 5
     threshold: 10
