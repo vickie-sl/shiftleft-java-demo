@@ -1,4 +1,10 @@
 build_rules:
+  - id: allow-no-criticals
+    finding_types:
+      - vuln
+    severity:
+      - critical
+    threshold: 0
   - id: reachable-oss-vuln
     finding_types: [oss_vuln]
     options:
