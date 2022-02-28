@@ -1,4 +1,4 @@
-package io.shiftleft.model;
+package io.shiftleft.model;  
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

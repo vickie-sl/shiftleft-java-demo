@@ -3,7 +3,7 @@ package io.shiftleft.controller;
 import io.shiftleft.data.DataLoader;  
 import io.shiftleft.model.Account;
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpServletResponse;  
 
 import io.shiftleft.repository.AccountRepository;
 
@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * Admin checks login
- *
  *
  */
 
