@@ -9,6 +9,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "account")
 public class Account {
+  // user account info
 
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
